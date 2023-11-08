@@ -1,0 +1,66 @@
+body {
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+    background-image: linear-gradient(rgba(0, 77, 44, 0.65), rgba(9, 0, 77, 0.65)), url(Img/Van\ abbe\ museum.jpg);
+    background-size: cover;
+}
+
+#navigation {
+    height: 10px;
+    margin: 30px 0px 0px 0px;
+}
+
+#navigation a {
+    padding: 10px;
+    background: green;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 7px;
+
+}
+
+#navigation a:hover {
+    color: blue;
+}
+
+#Vanabbe {
+    float: left;
+    margin: 0px 0px 0px 120px;
+    display: block;
+}
+
+.reset {
+    clear: both;
+}
+
+#introcontainer {
+    display: block;
+    width: 800px;
+    float: left;
+    padding: 20px 0px 0px 0px;
+    margin: 0px 0px 0px 34px;
+}
+
+#Introtext {
+    color: #fff;
+}
+
+#Draak {
+    width: 400px;
+    height: 500px;
+    float: right;
+    margin: 0px, 0px, 0px, 100px;
+    padding: 10px;
+}
+
+#Vrouw {
+    width: 800px;
+    height: 500px;
+    float: right;
+    margin: 100px, 0px, 0px, 0px;
+    padding: 10px;
+}
+#mainContainer{
+    display: block;
+}
